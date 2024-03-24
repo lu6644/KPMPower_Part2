@@ -1,0 +1,138 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../../assets/bg-01.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .login-container {
+    background: white;
+    padding: 25px 70px;
+    border-radius: 8px;
+    width: 25%; 
+  }
+
+  .sign-in-with{
+    text-align: center;
+  }
+
+  .facebook-button {
+    background-color: #3b5998; 
+    color: white; 
+    padding: 15px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: Arial, sans-serif; 
+    text-decoration: none; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    border: none; 
+    outline: none; 
+    margin-right: 5px;
+  }
+
+  .facebook-button img{
+    height: 20px;
+  }
+  
+  .google-button {
+    background-color: white; 
+    color: black; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: Arial, sans-serif; 
+    text-decoration: none; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    border: none; 
+    outline: none; 
+    margin-left: 5px;
+  }
+
+  .google-button img{
+    height: 20px;
+  }
+
+  .social-buttons {
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+  }
+
+
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+
+  .input-group>label {
+    display: block; 
+    width: 100%; 
+    margin-bottom: 5px; 
+    font-size: smaller;
+  }
+
+  input {
+    display: block; 
+    width: 100%; 
+    margin-bottom: 5px;
+    height: 40px; 
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: gainsboro 0.5px solid;
+  }
+
+  .label-and-link label {
+    margin-bottom: 5px; 
+    font-size: smaller;
+  }
+  
+  .label-and-link {
+    display: flex;
+    justify-items: flex-start;
+  }
+
+  .password-group {
+    display: block;
+  }
+  
+  .forgot-password-link {
+    margin-left: 5px; 
+    font-size: 12px;
+    align-self: flex-end;
+    margin-bottom: 5px;
+    color: gray;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: gray;
+  }
+  
+  .signup-link {
+    text-align: center;
+    margin-top: 30px;
+    font-size: small;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
+  

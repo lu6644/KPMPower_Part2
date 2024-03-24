@@ -1,0 +1,13 @@
+.welcome-container {
+    background: url('../../assets/bg.png');
+    background-size: cover;
+  }
+
+.welcome-note {
+    text-align: center;
+}
+
+table,th,td {
+    margin: auto;
+    border: 1px solid;
+}
